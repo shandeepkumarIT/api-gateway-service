@@ -12,3 +12,6 @@ Need dependency application to run
   3. zipkin-3.4.4
   4. prometheus-3.2.0
   5. grafana-v11.5.1
+
+![image](https://github.com/user-attachments/assets/425c6a8a-5928-4086-906b-b226d2fe5b53)
+
