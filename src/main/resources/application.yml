@@ -2,6 +2,24 @@
 server:
   port: ${PORT:9000}
 
+# Swagger Description
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /v3/api-docs/swagger-config
+    urls:
+      - name: api-gateway-service
+        url: /v3/api-docs
+      - name: inventory-service
+        url: /inventory/v3/api-docs
+      - name: product-service
+        url: /product/v3/api-docs
+      - name: order-service
+        url: /order/v3/api-docs
+
 # Eureka Details
 eureka:
   instance:
